@@ -1,2 +1,19 @@
-# resource-pack
-Free Scripts made for FiveM by Resmon Studio.
+# 0Resmon Resource Pack
+
+0Resmon produced by Resmon Studio and shared for free.
+
+# 0R NPC Interaction: 
+Preview: https://www.youtube.com/watch?v=OoxpufjSXjQ&feature=youtu.be
+
+Features
+
+2 different rotation menu options (right and left)
+You can interact with target, drawtext and textui. 
+Clean UI 
+Easy Config 
+Standalone
+
+# Goal Kicker
+Preview: https://youtu.be/Wru9VdPl1YM?si=1G2Aacc-jx0-775t
+![Preview 1]([http://url/to/img.png](https://i.hizliresim.com/opbvc41.png))
+![Preview 1]([http://url/to/img.png]([https://i.hizliresim.com/6r9fwvg.png]))
