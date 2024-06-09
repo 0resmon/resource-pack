@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: "Inter", sans-serif;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: mont;
+  src: url("../html/Poppins-Medium.ttf");
+}
+
+@font-face {
+  font-family: roboto;
+  src: url("../fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-family: GemunuLibre-Bold;
+  src: url("../fonts/GemunuLibre-Bold.ttf");
+}
+
+body {
+  margin: 0;
+  display: none;
+  /* color: #c00892; */
+  overflow: hidden;
+}
+
+.main-box{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55%;
+  width: 50%;
+  top: 30%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+.main-box .key-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4%;
+  width: 3%;
+  left: 51%;
+  top: 47%;
+  font-size: 0.8vw;
+  font-weight: 500;
+  padding: 2px;
+  border-radius: 10%;
+  z-index: 5;
+  background-color: rgb(50, 56, 68,0.9);
+  border: 1px solid #08c098;
+  /* background: radial-gradient(83% 83% at 50% 50%,rgb(50, 56, 68),rgba(79, 95, 128)); */
+  color: white;
+  position: absolute;
+  overflow: initial;
+}
+
+.main-box .key-box .key-box-border{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2%;
+  width: 30%;
+  font-size: 0.9vw;
+  top: 98.4%;
+  left: 33%;
+  border-radius: 20%;
+  background: #08c098;
+  border: 1px solid rgb(139, 137, 137,.2);
+  color: white;
+  position: absolute;
+  overflow: initial;
+}
+
+.main-box .key-box .progress{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 0.1%;
+  width: 0%;
+  left: 0%;
+  top: 100%;
+  opacity: 0;
+  border: 1px solid rgb(255, 0, 0);
+  color: white;
+  position: absolute;
+  overflow: initial;
+}
+
+.main-box .hr{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45%;
+  width: 3.5%;
+  filter: blur(0.6px);
+  font-size: 0.9rem;
+  background:radial-gradient(83% 83% at 50% 50%,rgb(1, 104, 76),rgb(7, 197, 153));
+  position: absolute;
+  top: -13%;
+  left: -19%;
+  border: none;
+  z-index: 5;
+}
+
+.main-box .right-box{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 35%;
+  font-size: 0.9rem;
+  padding: 2px;
+  left: 56%;
+  top: 45.5%;
+  justify-content: start;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: start;
+  align-content: start;
+  color: white;
+  overflow: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+.main-box .right-box .item{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 8%;
+  height: 1.5%;
+  width: 100%;
+  font-size: 0.9rem;
+  padding: 2px 0px 2px 0px;
+  color: white;
+  overflow: initial;
+  cursor: pointer;
+}
+
+
+
+
+.main-box .item .item-box-border{
+  justify-content: center;
+  align-items: center;
+  height: 6.5%;
+  width: 64%;
+  left: 24.3%;
+  font-size: 0.9vw;
+  padding: 2px;
+  /* border: 1px solid rgb(53,53,53); */
+  color: white;
+  position: absolute;
+}
+
+
+
+/* .main-box .right-box .item:hover .item-right{
+  background: radial-gradient(83% 83% at 50% 50%,rgb(1, 104, 76),rgb(7, 197, 153)) !important;
+  border: 2px solid #5FF9D4 !important;
+}
+
+.main-box .right-box .item:hover .border{
+  border: 2px solid #5FF9D4 !important;;
+  background:radial-gradient(83% 83% at 50% 50%,rgb(1, 104, 76),rgb(7, 197, 153)) !important;;
+}
+
+.main-box .right-box .item:hover .left-box{
+  background: rgba(95, 249, 212) !important;;
+} */
+
+
+
+.main-box .right-box .border{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6%;
+  width: 8.5%;
+  left: 8%;
+  position: absolute;
+  border-radius: 4.4px;
+  font-size: 0.9rem;
+  padding: 2px;
+  overflow: hidden;
+  /* clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); */
+  border: 2px solid #353535;
+  background-color: rgb(53, 53, 53,0.29);
+}
+
+.main-box .right-box .left-box{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45%;
+  width: 15%;
+  font-size: 0.9rem;
+  padding: 1px;
+  left: -17%;
+  top: 23%;
+  border-radius: 1.47px;
+  background: rgba(53, 53, 53, 1);
+}
+
+
+.main-box .right-box .item-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  flex-direction: column;
+  height: 6%;
+  width: 50%;
+  left: 12%;
+  padding: 5px;
+  font-size: 0.75vw;
+  border-radius: 2.4px;
+  background-color: rgb(50, 56, 68,0.9);
+  transition: 0.1s;
+  overflow: initial;
+  color: rgb(255 ,255 ,255 ,0.7);
+}
+
+.main-box .right-box .square{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 83%;
+  width: 13%;
+  font-size: 0.9vw;
+  padding: 2px;
+  left: -19%;
+  top: 2%;
+  position: absolute;
+  overflow: initial;
+  border: none;
+  border-radius: 2.4px;
+  background-color: rgb(50, 56, 68,0.8);
+}
+
+.main-box .right-box .square .borderr{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2%;
+  width: 2%;
+  font-size: 0.9vw;
+  padding: 1.8px;
+  background-color: #08c098;
+  border: 1px solid #08c098;
+  border-radius: 2.4px;
+  color: white;
+  position: absolute;
+  overflow: initial;
+  display: none;
+}
+
+.main-box .right-box .item-right i{
+  font-size: 0.8vw;
+  font-weight: lighter;
+  color: #08c098;
+  filter: drop-shadow(0px 0px 10px #08c098);
+  position: absolute;
+  left: 5%;
+  top: 20%;
+}
+
+.svg{
+  justify-content: center;
+  align-items: center;
+  height: 11%;
+  width: 15%;
+  font-size: 0.9vw;
+  padding: 2px;
+  left: 43.7%;
+  color: white;
+  position: absolute;
+  overflow: initial;
+}
+
+.down{
+  position: absolute;
+  left: 80%;
+  top: 54%;
+  transform: translate(-50%, -50%);
+  color: rgb(255 ,255 ,255 ,0.7);
+  font-size: 0.9rem;
+  z-index: 5;
+}
+
+
+.up{
+  position: absolute;
+  left: 80%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255 ,255 ,255 ,0.7);
+  font-size: 0.9rem;
+  z-index: 5;
+}
+
+.page-count{
+  position: absolute;
+  left: 80%;
+  top: 52.3%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 0.7rem;
+}

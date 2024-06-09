@@ -1,0 +1,50 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.1/css/all.css" type="text/css">
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="mainDiv">
+            <!-- Top Left -->
+            <div id="MDTopLeftLine" style="left: -25%; top: 0;"></div>
+            <div id="MDTopLeftLine" style="left: -18%; top: 4%; height: 1%;"></div>
+            <div id="MDTopLeftLine" style="left: -13%; top: 4%; height: 2%; width: 110%;"></div>
+            <div id="MDTopEffect"></div>
+            <div id="MDBottomEffect"></div>
+            <div id="MDDivType1">
+                <div id="MDDivType1Inside" style="justify-content: flex-start; width: 70%; height: 50%;">
+                    <div id="MDDivType1InsideIconDiv"></div>
+                    <div id="MDDivType1InsideTextDiv">
+                        <h4 id="topTitle1"><span></span></h4>
+                        <h4 style="font-weight: 400; letter-spacing: 0.87vw; font-size: 0.7vw;" id="topDescription">SYSTEM</h4>
+                    </div>
+                </div>
+                <div id="MDDivType1Inside" style="width: 30%; height: 35%; justify-content: flex-end; gap: 0;">
+                    <div id="MDDivType1InsideCloseLeft" onclick="clFunc('closeMenu')">Exit</div>
+                    <div id="MDDivType1InsideCloseRight">ESC</div>
+                </div>
+            </div>
+            <div id="MDDivType2">
+                <div id="MDDivType2TopDiv">
+                    <div id="MDDivType2TopDivLeft"></div>
+                    <div id="MDDivType2TopDivRight" onclick="clFunc('camera')">
+                        <i class="fas fa-street-view"></i>
+                        <div id="MDDivType2TopDivRightCircle" class="MDDivType2TopDivRightCircle"></div>
+                    </div>
+                </div>
+                <div id="MDDivType2BottomDiv">
+                    <div id="MDDivType2BDMe">
+                        <div id="MDDivType2BDMeTextDiv">Yes, any problem?</div>
+                        <div id="MDDivType2BDMeTargetLine"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="MDDivType3"></div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
