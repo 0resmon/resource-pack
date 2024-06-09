@@ -19,3 +19,5 @@ Preview: https://youtu.be/Wru9VdPl1YM?si=1G2Aacc-jx0-775t
 
 # Frkn Text
 Preview: https://youtu.be/jLsjwAjQ9vo?si=BAEF48uLuWQadeTi
+
+Join our discord server to get more: https://discord.gg/0resmon
