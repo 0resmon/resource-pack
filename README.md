@@ -15,5 +15,7 @@ Standalone
 
 # Goal Kicker
 Preview: https://youtu.be/Wru9VdPl1YM?si=1G2Aacc-jx0-775t
-![Preview 1]([http://url/to/img.png](https://i.hizliresim.com/opbvc41.png))
-![Preview 1]([http://url/to/img.png]([https://i.hizliresim.com/6r9fwvg.png]))
+
+
+# Frkn Text
+Preview: https://youtu.be/jLsjwAjQ9vo?si=BAEF48uLuWQadeTi
