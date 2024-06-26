@@ -1,6 +1,11 @@
 # 0Resmon Resource Pack
 
+Join our discord server to get more: https://discord.gg/0resmon
+
 0Resmon produced by Resmon Studio and shared for free.
+
+# Frkn Text
+Preview: https://youtu.be/jLsjwAjQ9vo?si=BAEF48uLuWQadeTi
 
 # 0R NPC Interaction: 
 Preview: https://www.youtube.com/watch?v=OoxpufjSXjQ&feature=youtu.be
@@ -15,9 +20,3 @@ Standalone
 
 # Goal Kicker
 Preview: https://youtu.be/Wru9VdPl1YM?si=1G2Aacc-jx0-775t
-
-
-# Frkn Text
-Preview: https://youtu.be/jLsjwAjQ9vo?si=BAEF48uLuWQadeTi
-
-Join our discord server to get more: https://discord.gg/0resmon
