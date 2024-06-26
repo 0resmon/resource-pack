@@ -4,7 +4,7 @@ Join our discord server to get more: https://discord.gg/0resmon
 
 0Resmon produced by Resmon Studio and shared for free.
 
-# Frkn Text
+# FRKN TEXT
 Preview: https://youtu.be/jLsjwAjQ9vo?si=BAEF48uLuWQadeTi
 
 # 0R NPC Interaction: 
@@ -18,5 +18,5 @@ Clean UI
 Easy Config 
 Standalone
 
-# Goal Kicker
+# GOAL KICKER
 Preview: https://youtu.be/Wru9VdPl1YM?si=1G2Aacc-jx0-775t
